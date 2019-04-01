@@ -1,0 +1,39 @@
+body {
+  background: #1A2226;
+    font-family: 'Roboto', sans-serif;
+}
+  
+  h3,p {
+    color : #ccc;
+  }
+  a, a:hover {
+    color : #ccc;
+    text-decoration : underline;
+  }
+  input[type="text"], input[type="tel"] {
+    background-color : #919191;
+    border-style : none;
+  }
+  /*Styling for errors on form*/
+  .form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  .form_error input {
+    border: 1px solid #D83D5A;
+  }
+
+  /*Styling in case no errors on form*/
+  .form_success span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: green;
+  }
+  .form_success input {
+    border: 1px solid green;
+  }

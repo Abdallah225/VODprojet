@@ -1,0 +1,5 @@
+SMS Orange Cote d'Ivoire 16Fr / sms (Paiement par Crédit de communication et par orange money) -Durée de validité des sms Avantages : moins cher, pas besoin d'avoir une carte pour payer
+Nexmo 50Fr / sms (Paiement par carte de crédit et Paypal)
+Sms Vert 41Fr / sms (Paiement parcarte visa ou Paypal, prix qui diminue au fur et à mesure que le nombre de sms est grand) +Pass de durée de validité
+Bulk Sms 35fr / sms (Paiement parcarte visa ou Paypal, prix qui diminue au fur et à mesure que le nombre de sms est grand)
+

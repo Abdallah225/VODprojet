@@ -1,0 +1,285 @@
+html body{
+  background-color: #252d31;
+}
+.header{
+    background-color: #3c4a50;
+    padding-bottom:30px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+    height: 8%;
+    /*background-color:#F00;  /*whichever you want
+    opacity: 1;           /*0.5 determines transparency value
+    filter:(opacity=50); */
+}
+.navbar-brand{
+  margin-left: 5%;
+}
+#navbarNav .form-inline{
+  width: 700px;
+}
+#navbarNav .form-control{
+  width: 60%;
+  margin-left: 5%;
+}
+#navbarNav form input{
+  border-radius: 50px;
+  border: 1px #83A8F7 solid;
+  background: transparent;
+  text-align: center;
+  height: 29px;
+  font-size: 12px;
+}
+#navbarNav{
+    margin-left: 1%; text-align: left; 
+}
+#navbarNav ul{
+  list-style-type: none;
+}
+#navbarNav ul li{
+  display: inline-block;
+  margin-right: 65px;
+  font-size: 20px;
+}
+.carousel-caption{
+  width: 1000px;
+  left: 20px;
+}
+.carousel-caption h5{
+  text-align: left;
+  margin-left: 10px;
+  height: 310px;
+  font-size: 50px;
+  position: relative;
+  right: 10%;
+}
+h5 /*{
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  */
+  .p {
+    text-align: left;
+    padding-top: 30px;
+    font-size: 13px;
+  }
+  .carousel-item{
+    height: 540px; 
+    background-color: rgba(177, 22, 22, 0.1);
+    width: 100%
+  }
+  /*css section*/
+  .grid {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1500px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+  }
+  .container-fluid h2{
+    font-size: 19px;
+    color: #fff;
+  }
+  .center{
+    padding: 7px;
+    height: 7px;
+  }
+  /* Common style */
+  .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 0%;
+    min-width: 220px;
+    min-height: 190px;
+    max-width: 483px;
+    max-height: 190px;
+    width: 88%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .grid figure:hover{
+    bottom: 15px;
+    -webkit-transform: scale(1.3);
+    transform: scale(1);
+  }
+  
+  .grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width:  100%;
+    width: 100%;
+  }
+  
+  .grid figure figcaption {
+    opacity: 1;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.50em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .grid figure figcaption::before,
+  .grid figure figcaption::after {
+    pointer-events: none;
+  }
+  
+  .grid figure figcaption,
+  .grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* For some effects it will show as a button */
+  .grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+  }
+  
+  .grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+  }
+  
+  .grid figure h2 span {
+    font-weight: 800;
+  }
+  
+  .grid figure h2,
+  .grid figure p {
+    margin: 0;
+  }
+  
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+  }
+  /*effet sur le survol du cardre*/
+  figure.effect-zoe figcaption {
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 8.75em;
+    opacity: 0.6;
+    background: rgb(14, 13, 13);
+    color: #3c4a50;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+  }
+  
+  figure.effect-zoe h2 {
+    float: left;
+  }
+  
+  figure.effect-zoe p.icon-links a {
+    float: right;
+    color: #3c4a50;
+    font-size: 1.4em;
+  }
+  
+  figure.effect-zoe:hover p.icon-links a:hover,
+  figure.effect-zoe:hover p.icon-links a:focus {
+    color: #252d31;
+  }
+  
+  figure.effect-zoe p.description {
+    position: absolute;
+    bottom: 8em;
+    padding: 2em;
+    color: #fff;
+    text-transform: none;
+    font-size: 65%;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  
+  figure.effect-zoe h2,
+  figure.effect-zoe p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,200%,0);
+    transform: translate3d(0,200%,0);
+  }
+  
+  figure.effect-zoe p.icon-links a span::before {
+    display: inline-block;
+    padding: 8px 10px;
+    font-family: 'feathericons';
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-eye::before {
+    content: '\e000';
+  }
+  
+  .icon-paper-clip::before {
+    content: '\e001';
+  }
+  
+  .icon-heart::before {
+    content: '\e024';
+  }
+  
+  figure.effect-zoe h2 {
+    display: inline-block;
+  }
+  
+  figure.effect-zoe:hover p.description {
+    opacity: 1;
+  }
+  
+  figure.effect-zoe:hover figcaption,
+  figure.effect-zoe:hover h2,
+  figure.effect-zoe:hover p.icon-links a {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-zoe:hover h2 {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+  }
+  
+  figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+  }
+  
+  figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+  }
+  
+  figure.effect-zoe:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .footer{
+    height: 7%;
+    padding: 7%;
+  }
